@@ -165,3 +165,16 @@ h2{
     padding: 30px 20px;
 }
 /*footer ends*/
+ @media screen and (max-width:480px){
+    .container{
+        margin-bottom: 20px;
+    }
+    ul{
+        display: block;
+    }
+    .body-content{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+    }
+ }
